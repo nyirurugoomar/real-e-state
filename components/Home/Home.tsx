@@ -1,8 +1,11 @@
 import React from 'react'
+import Hero from './Hero/hero'
 
 function Home() {
   return (
-    <div>Home testing</div>
+    <div className='overflow-hidden'>
+      <Hero/>
+    </div>
   )
 }
 
