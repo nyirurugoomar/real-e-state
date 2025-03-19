@@ -70,7 +70,7 @@ function Nav({ openNav }) {
         "Nav.useEffect": ()=>{
             const handler = {
                 "Nav.useEffect.handler": ()=>{
-                    if (window.scrollY >= 90) setNavBg(true);
+                    if (window.scrollY >= 100) setNavBg(true);
                     if (window.scrollY < 90) setNavBg(false);
                 }
             }["Nav.useEffect.handler"];
@@ -117,7 +117,7 @@ function Nav({ openNav }) {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "lg:flex items-center space-x-14 text-white hidden",
+                    className: "lg:flex items-center space-x-14 text-white  hidden",
                     children: __TURBOPACK__imported__module__$5b$project$5d2f$constant$2f$constant$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["navLinks"].map((navlink)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: navlink.url,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -222,7 +222,7 @@ function MobileNavbar({ closeNav, showNav }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: `transform ${navOpen} fixed transition-all duration-500 inset-0 z-[100] bg-black opacity-70 w-full h-screen`
+                className: `transform ${navOpen} fixed transition-all duration-500 inset-0 z-[100] bg-black  w-full h-screen`
             }, void 0, false, {
                 fileName: "[project]/components/Home/Navbar/MobileNavbar.tsx",
                 lineNumber: 16,

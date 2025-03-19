@@ -16,7 +16,7 @@ function Nav({ openNav }: Props) {
 
   useEffect(() => {
     const handler = () =>{
-      if(window.scrollY >= 90) setNavBg(true);
+      if(window.scrollY >= 100) setNavBg(true);
       if(window.scrollY < 90) setNavBg(false);
     };
     window.addEventListener('scroll', handler);
@@ -38,7 +38,7 @@ function Nav({ openNav }: Props) {
         </div>
 
         {/* Menu */}
-        <div className="lg:flex items-center space-x-14 text-white hidden">
+        <div className="lg:flex items-center space-x-14 text-white  hidden">
           {navLinks.map((navlink) => (
             <Link key={navlink.id} href={navlink.url}>
               <p className="font-medium hover:text-yellow-300">{navlink.label}</p>

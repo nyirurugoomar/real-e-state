@@ -13,7 +13,7 @@ function MobileNavbar({closeNav,showNav}:Props) {
     const navOpen = showNav ? 'translate-x-0' : 'translate-x-[-100%]';
   return (
     <div>
-        <div className={`transform ${navOpen} fixed transition-all duration-500 inset-0 z-[100] bg-black opacity-70 w-full h-screen`}>
+        <div className={`transform ${navOpen} fixed transition-all duration-500 inset-0 z-[100] bg-black  w-full h-screen`}>
         </div>
         {/* navlinks */}
         <div className={`text-white ${navOpen} transform transition-all duration-500 delay-300 fixed flex justify-center flex-col h-full w-[80%] sm:w-[60%] bg-[#c1205e] space-y-6 z-[10000]`}>
